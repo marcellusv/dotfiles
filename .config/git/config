@@ -1,0 +1,9 @@
+[user]
+	name = Marcel V.
+	email = marcellusv@users.noreply.github.com
+[core]
+	editor = nvim
+[alias]
+	l = log --oneline --graph --decorate
+	lg = log -p
+	s = status
