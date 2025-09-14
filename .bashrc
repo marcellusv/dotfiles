@@ -8,4 +8,7 @@
 alias ls='ls --color=auto'
 alias ll='ls -al'
 alias grep='grep --color=auto'
+alias shutdownh='shutdown -h now'
 PS1='[\u@\h \W]\$ '
+
+eval "$(fzf --bash)"
