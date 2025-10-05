@@ -11,4 +11,7 @@ alias grep='grep --color=auto'
 alias shutdownh='shutdown -h now'
 PS1='[\u@\h \W]\$ '
 
+export VISUAL=nvim;
+export EDITOR=nvim;
+
 eval "$(fzf --bash)"
